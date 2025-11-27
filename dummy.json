@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Classic Leather Sofa",
+        "brand": "ComfortLiving",
+        "category": "Furniture",
+        "price": 799.99,
+        "originalPrice": 999.99,
+        "description1": "A premium leather sofa perfect for any living room.",
+        "description2": "Made with high-quality materials and fine craftsmanship.",
+        "images": [
+            "https://example.com/images/sofa-front.jpg",
+            "https://example.com/images/sofa-side.jpg"
+        ],
+        "specs": {
+            "Material": "Genuine Leather",
+            "Frame": "Solid Wood",
+            "Seating Capacity": "3",
+            "Color": "Dark Brown"
+        },
+        "badge": {
+            "text": "Best Seller",
+            "color": "bg-green-600"
+        },
+        "inStock": true,
+        "colors": [
+            "Dark Brown",
+            "Beige",
+            "Gray"
+        ],
+        "sizes": [
+            "Standard"
+        ],
+        "rating": 4.5,
+        "reviews": 132,
+        "createdAt": "2025-08-06T05:20:13.456Z",
+        "updatedAt": "2025-08-06T05:20:13.456Z"
+    },
+    {
+        "name": "ErgoPro Mesh Office Chair",
+        "brand": "ErgoTech",
+        "category": "Office Furniture",
+        "price": 189.99,
+        "originalPrice": 249.99,
+        "description1": "Designed for maximum back support and comfort during long work hours.",
+        "description2": "Includes adjustable armrests, lumbar support, and breathable mesh fabric.",
+        "images": [
+            "https://example.com/images/chair-front.jpg",
+            "https://example.com/images/chair-back.jpg"
+        ],
+        "specs": {
+            "Material": "Mesh + Plastic",
+            "Adjustable Height": "Yes",
+            "Weight Capacity": "120kg",
+            "Wheels": "360° swivel"
+        },
+        "badge": {
+            "text": "Limited Offer",
+            "color": "bg-yellow-500"
+        },
+        "inStock": true,
+        "colors": [
+            "Black",
+            "Gray"
+        ],
+        "sizes": [
+            "Standard",
+            "XL"
+        ],
+        "rating": 4.2,
+        "reviews": 89,
+        "createdAt": "2025-08-01T10:12:00.000Z",
+        "updatedAt": "2025-08-04T13:45:20.000Z"
+    },
+    {
+        "name": "SoundMax Wireless Earbuds Pro",
+        "brand": "AudioMax",
+        "category": "Electronics",
+        "price": 59.99,
+        "originalPrice": 89.99,
+        "description1": "Experience rich, immersive sound with noise cancellation.",
+        "description2": "Perfect for workouts, commuting, or casual listening.",
+        "images": [
+            "https://example.com/images/earbuds-case.jpg",
+            "https://example.com/images/earbuds-worn.jpg"
+        ],
+        "specs": {
+            "Battery Life": "8 hours",
+            "Charging Case": "Yes (24 hours total)",
+            "Water Resistance": "IPX5",
+            "Bluetooth": "5.3"
+        },
+        "badge": {
+            "text": "Hot Deal",
+            "color": "bg-red-500"
+        },
+        "inStock": false,
+        "colors": [
+            "White",
+            "Black",
+            "Navy Blue"
+        ],
+        "sizes": [],
+        "rating": 4.7,
+        "reviews": 214,
+        "createdAt": "2025-07-29T08:45:00.000Z",
+        "updatedAt": "2025-08-05T15:30:10.000Z"
+    }
+]

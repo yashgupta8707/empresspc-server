@@ -1,0 +1,2406 @@
+{
+  "generatedAt": "2025-09-07T08:23:39.425Z",
+  "totalApis": 400,
+  "apis": [
+    {
+      "method": "HOST",
+      "path": "host",
+      "file": "controllers\\uploadController.js",
+      "line": 16
+    },
+    {
+      "method": "HOST",
+      "path": "host",
+      "file": "controllers\\uploadController.js",
+      "line": 48
+    },
+    {
+      "method": "USER-AGENT",
+      "path": "User-Agent",
+      "file": "middleware\\auth.js",
+      "line": 328
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "minimal-server.js",
+      "line": 27
+    },
+    {
+      "method": "/API/HEALTH",
+      "path": "/api/health",
+      "file": "minimal-server.js",
+      "line": 31
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "minimal-server.js",
+      "line": 27
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "minimal-server.js",
+      "line": 31
+    },
+    {
+      "method": "/UPLOADS",
+      "path": "/uploads",
+      "file": "minimal-server.js",
+      "line": 42
+    },
+    {
+      "method": "/API/*",
+      "path": "/api/*",
+      "file": "minimal-server.js",
+      "line": 51
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\aboutRoutes.js",
+      "line": 29
+    },
+    {
+      "method": "/ADMIN/GALLERY",
+      "path": "/admin/gallery",
+      "file": "routes\\aboutRoutes.js",
+      "line": 32
+    },
+    {
+      "method": "/ADMIN/TEAM",
+      "path": "/admin/team",
+      "file": "routes\\aboutRoutes.js",
+      "line": 38
+    },
+    {
+      "method": "/ADMIN/STATS",
+      "path": "/admin/stats",
+      "file": "routes\\aboutRoutes.js",
+      "line": 44
+    },
+    {
+      "method": "/ADMIN/CORE-VALUES",
+      "path": "/admin/core-values",
+      "file": "routes\\aboutRoutes.js",
+      "line": 50
+    },
+    {
+      "method": "/ADMIN/COMPANY-INFO",
+      "path": "/admin/company-info",
+      "file": "routes\\aboutRoutes.js",
+      "line": 56
+    },
+    {
+      "method": "/ADMIN/GALLERY",
+      "path": "/admin/gallery",
+      "file": "routes\\aboutRoutes.js",
+      "line": 33
+    },
+    {
+      "method": "/ADMIN/TEAM",
+      "path": "/admin/team",
+      "file": "routes\\aboutRoutes.js",
+      "line": 39
+    },
+    {
+      "method": "/ADMIN/STATS",
+      "path": "/admin/stats",
+      "file": "routes\\aboutRoutes.js",
+      "line": 45
+    },
+    {
+      "method": "/ADMIN/CORE-VALUES",
+      "path": "/admin/core-values",
+      "file": "routes\\aboutRoutes.js",
+      "line": 51
+    },
+    {
+      "method": "/ADMIN/GALLERY/:ID",
+      "path": "/admin/gallery/:id",
+      "file": "routes\\aboutRoutes.js",
+      "line": 34
+    },
+    {
+      "method": "/ADMIN/TEAM/:ID",
+      "path": "/admin/team/:id",
+      "file": "routes\\aboutRoutes.js",
+      "line": 40
+    },
+    {
+      "method": "/ADMIN/STATS/:ID",
+      "path": "/admin/stats/:id",
+      "file": "routes\\aboutRoutes.js",
+      "line": 46
+    },
+    {
+      "method": "/ADMIN/CORE-VALUES/:ID",
+      "path": "/admin/core-values/:id",
+      "file": "routes\\aboutRoutes.js",
+      "line": 52
+    },
+    {
+      "method": "/ADMIN/COMPANY-INFO",
+      "path": "/admin/company-info",
+      "file": "routes\\aboutRoutes.js",
+      "line": 57
+    },
+    {
+      "method": "/ADMIN/GALLERY/:ID",
+      "path": "/admin/gallery/:id",
+      "file": "routes\\aboutRoutes.js",
+      "line": 35
+    },
+    {
+      "method": "/ADMIN/TEAM/:ID",
+      "path": "/admin/team/:id",
+      "file": "routes\\aboutRoutes.js",
+      "line": 41
+    },
+    {
+      "method": "/ADMIN/STATS/:ID",
+      "path": "/admin/stats/:id",
+      "file": "routes\\aboutRoutes.js",
+      "line": 47
+    },
+    {
+      "method": "/ADMIN/CORE-VALUES/:ID",
+      "path": "/admin/core-values/:id",
+      "file": "routes\\aboutRoutes.js",
+      "line": 53
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\aboutRoutes.js",
+      "line": 29
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\aboutRoutes.js",
+      "line": 32
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\aboutRoutes.js",
+      "line": 33
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\aboutRoutes.js",
+      "line": 34
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\aboutRoutes.js",
+      "line": 35
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\aboutRoutes.js",
+      "line": 38
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\aboutRoutes.js",
+      "line": 39
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\aboutRoutes.js",
+      "line": 40
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\aboutRoutes.js",
+      "line": 41
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\aboutRoutes.js",
+      "line": 44
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\aboutRoutes.js",
+      "line": 45
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\aboutRoutes.js",
+      "line": 46
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\aboutRoutes.js",
+      "line": 47
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\aboutRoutes.js",
+      "line": 50
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\aboutRoutes.js",
+      "line": 51
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\aboutRoutes.js",
+      "line": 52
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\aboutRoutes.js",
+      "line": 53
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\aboutRoutes.js",
+      "line": 56
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\aboutRoutes.js",
+      "line": 57
+    },
+    {
+      "method": "/PRODUCTS",
+      "path": "/products",
+      "file": "routes\\adminRoutes.js",
+      "line": 54
+    },
+    {
+      "method": "/ORDERS",
+      "path": "/orders",
+      "file": "routes\\adminRoutes.js",
+      "line": 60
+    },
+    {
+      "method": "/ORDERS/STATS",
+      "path": "/orders/stats",
+      "file": "routes\\adminRoutes.js",
+      "line": 61
+    },
+    {
+      "method": "/ORDERS/:ID",
+      "path": "/orders/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 62
+    },
+    {
+      "method": "/USERS",
+      "path": "/users",
+      "file": "routes\\adminRoutes.js",
+      "line": 68
+    },
+    {
+      "method": "/USERS/:ID/ORDERS",
+      "path": "/users/:id/orders",
+      "file": "routes\\adminRoutes.js",
+      "line": 69
+    },
+    {
+      "method": "/BLOGS",
+      "path": "/blogs",
+      "file": "routes\\adminRoutes.js",
+      "line": 72
+    },
+    {
+      "method": "/BLOGS/STATS",
+      "path": "/blogs/stats",
+      "file": "routes\\adminRoutes.js",
+      "line": 76
+    },
+    {
+      "method": "/EVENTS",
+      "path": "/events",
+      "file": "routes\\adminRoutes.js",
+      "line": 79
+    },
+    {
+      "method": "/EVENTS/STATS",
+      "path": "/events/stats",
+      "file": "routes\\adminRoutes.js",
+      "line": 83
+    },
+    {
+      "method": "/CONTACTS",
+      "path": "/contacts",
+      "file": "routes\\adminRoutes.js",
+      "line": 86
+    },
+    {
+      "method": "/CONTACTS/STATS",
+      "path": "/contacts/stats",
+      "file": "routes\\adminRoutes.js",
+      "line": 87
+    },
+    {
+      "method": "/CONTACTS/:ID",
+      "path": "/contacts/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 88
+    },
+    {
+      "method": "/DASHBOARD/STATS",
+      "path": "/dashboard/stats",
+      "file": "routes\\adminRoutes.js",
+      "line": 93
+    },
+    {
+      "method": "/PRODUCTS",
+      "path": "/products",
+      "file": "routes\\adminRoutes.js",
+      "line": 55
+    },
+    {
+      "method": "/BLOGS",
+      "path": "/blogs",
+      "file": "routes\\adminRoutes.js",
+      "line": 73
+    },
+    {
+      "method": "/EVENTS",
+      "path": "/events",
+      "file": "routes\\adminRoutes.js",
+      "line": 80
+    },
+    {
+      "method": "/PRODUCTS/:ID",
+      "path": "/products/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 56
+    },
+    {
+      "method": "/ORDERS/:ID/STATUS",
+      "path": "/orders/:id/status",
+      "file": "routes\\adminRoutes.js",
+      "line": 63
+    },
+    {
+      "method": "/ORDERS/:ID/DELIVERED",
+      "path": "/orders/:id/delivered",
+      "file": "routes\\adminRoutes.js",
+      "line": 64
+    },
+    {
+      "method": "/ORDERS/:ID/PAID",
+      "path": "/orders/:id/paid",
+      "file": "routes\\adminRoutes.js",
+      "line": 65
+    },
+    {
+      "method": "/BLOGS/:ID",
+      "path": "/blogs/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 74
+    },
+    {
+      "method": "/EVENTS/:ID",
+      "path": "/events/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 81
+    },
+    {
+      "method": "/CONTACTS/:ID",
+      "path": "/contacts/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 89
+    },
+    {
+      "method": "/PRODUCTS/:ID",
+      "path": "/products/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 57
+    },
+    {
+      "method": "/BLOGS/:ID",
+      "path": "/blogs/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 75
+    },
+    {
+      "method": "/EVENTS/:ID",
+      "path": "/events/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 82
+    },
+    {
+      "method": "/CONTACTS/:ID",
+      "path": "/contacts/:id",
+      "file": "routes\\adminRoutes.js",
+      "line": 90
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 54
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\adminRoutes.js",
+      "line": 55
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\adminRoutes.js",
+      "line": 56
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\adminRoutes.js",
+      "line": 57
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 60
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 61
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 62
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\adminRoutes.js",
+      "line": 63
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\adminRoutes.js",
+      "line": 64
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\adminRoutes.js",
+      "line": 65
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 68
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 69
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 72
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\adminRoutes.js",
+      "line": 73
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\adminRoutes.js",
+      "line": 74
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\adminRoutes.js",
+      "line": 75
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 76
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 79
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\adminRoutes.js",
+      "line": 80
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\adminRoutes.js",
+      "line": 81
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\adminRoutes.js",
+      "line": 82
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 83
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 86
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 87
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 88
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\adminRoutes.js",
+      "line": 89
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\adminRoutes.js",
+      "line": 90
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\adminRoutes.js",
+      "line": 93
+    },
+    {
+      "method": "/PAGE-VIEWS",
+      "path": "/page-views",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 10
+    },
+    {
+      "method": "/USERS",
+      "path": "/users",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 46
+    },
+    {
+      "method": "/CONVERSION-RATE",
+      "path": "/conversion-rate",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 82
+    },
+    {
+      "method": "USER-AGENT",
+      "path": "User-Agent",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 129
+    },
+    {
+      "method": "/DASHBOARD",
+      "path": "/dashboard",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 148
+    },
+    {
+      "method": "/TRACK",
+      "path": "/track",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 118
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 10
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 46
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 82
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 118
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\analyticsRoutes.js",
+      "line": 148
+    },
+    {
+      "method": "/PROFILE",
+      "path": "/profile",
+      "file": "routes\\authRoutes.js",
+      "line": 70
+    },
+    {
+      "method": "/REGISTER",
+      "path": "/register",
+      "file": "routes\\authRoutes.js",
+      "line": 17
+    },
+    {
+      "method": "/LOGIN",
+      "path": "/login",
+      "file": "routes\\authRoutes.js",
+      "line": 45
+    },
+    {
+      "method": "/PROFILE",
+      "path": "/profile",
+      "file": "routes\\authRoutes.js",
+      "line": 91
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\authRoutes.js",
+      "line": 17
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\authRoutes.js",
+      "line": 45
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\authRoutes.js",
+      "line": 70
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\authRoutes.js",
+      "line": 91
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\blogRoutes.js",
+      "line": 24
+    },
+    {
+      "method": "/FEATURED",
+      "path": "/featured",
+      "file": "routes\\blogRoutes.js",
+      "line": 25
+    },
+    {
+      "method": "/EDITORS-CHOICE",
+      "path": "/editors-choice",
+      "file": "routes\\blogRoutes.js",
+      "line": 26
+    },
+    {
+      "method": "/RECENT",
+      "path": "/recent",
+      "file": "routes\\blogRoutes.js",
+      "line": 27
+    },
+    {
+      "method": "/POPULAR",
+      "path": "/popular",
+      "file": "routes\\blogRoutes.js",
+      "line": 28
+    },
+    {
+      "method": "/CATEGORY/:CATEGORY",
+      "path": "/category/:category",
+      "file": "routes\\blogRoutes.js",
+      "line": 29
+    },
+    {
+      "method": "/SLUG/:SLUG",
+      "path": "/slug/:slug",
+      "file": "routes\\blogRoutes.js",
+      "line": 30
+    },
+    {
+      "method": "/:ID",
+      "path": "/:id",
+      "file": "routes\\blogRoutes.js",
+      "line": 31
+    },
+    {
+      "method": "/ADMIN/ALL",
+      "path": "/admin/all",
+      "file": "routes\\blogRoutes.js",
+      "line": 34
+    },
+    {
+      "method": "/ADMIN/STATS",
+      "path": "/admin/stats",
+      "file": "routes\\blogRoutes.js",
+      "line": 39
+    },
+    {
+      "method": "/ADMIN/CREATE",
+      "path": "/admin/create",
+      "file": "routes\\blogRoutes.js",
+      "line": 35
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\blogRoutes.js",
+      "line": 36
+    },
+    {
+      "method": "/ADMIN/:ID/TOGGLE-STATUS",
+      "path": "/admin/:id/toggle-status",
+      "file": "routes\\blogRoutes.js",
+      "line": 38
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\blogRoutes.js",
+      "line": 37
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 24
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 25
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 26
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 27
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 28
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 29
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 30
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 31
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 34
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\blogRoutes.js",
+      "line": 35
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\blogRoutes.js",
+      "line": 36
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\blogRoutes.js",
+      "line": 37
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\blogRoutes.js",
+      "line": 38
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\blogRoutes.js",
+      "line": 39
+    },
+    {
+      "method": "/:USERID/HISTORY",
+      "path": "/:userId/history",
+      "file": "routes\\cartRoutes.js",
+      "line": 40
+    },
+    {
+      "method": "/:USERID/RECOMMENDATIONS",
+      "path": "/:userId/recommendations",
+      "file": "routes\\cartRoutes.js",
+      "line": 49
+    },
+    {
+      "method": "/:USERID/SAVED-ITEMS",
+      "path": "/:userId/saved-items",
+      "file": "routes\\cartRoutes.js",
+      "line": 52
+    },
+    {
+      "method": "/ADMIN/ANALYTICS",
+      "path": "/admin/analytics",
+      "file": "routes\\cartRoutes.js",
+      "line": 59
+    },
+    {
+      "method": "/ADMIN/ABANDONED",
+      "path": "/admin/abandoned",
+      "file": "routes\\cartRoutes.js",
+      "line": 60
+    },
+    {
+      "method": "/:USERID/ADD",
+      "path": "/:userId/add",
+      "file": "routes\\cartRoutes.js",
+      "line": 34
+    },
+    {
+      "method": "/:USERID/SYNC",
+      "path": "/:userId/sync",
+      "file": "routes\\cartRoutes.js",
+      "line": 41
+    },
+    {
+      "method": "/:USERID/VALIDATE",
+      "path": "/:userId/validate",
+      "file": "routes\\cartRoutes.js",
+      "line": 42
+    },
+    {
+      "method": "/:USERID/COUPON",
+      "path": "/:userId/coupon",
+      "file": "routes\\cartRoutes.js",
+      "line": 45
+    },
+    {
+      "method": "/:USERID/SAVE-LATER",
+      "path": "/:userId/save-later",
+      "file": "routes\\cartRoutes.js",
+      "line": 50
+    },
+    {
+      "method": "/:USERID/MOVE-TO-CART",
+      "path": "/:userId/move-to-cart",
+      "file": "routes\\cartRoutes.js",
+      "line": 51
+    },
+    {
+      "method": "/:USERID/SHIPPING-ESTIMATE",
+      "path": "/:userId/shipping-estimate",
+      "file": "routes\\cartRoutes.js",
+      "line": 55
+    },
+    {
+      "method": "/:USERID/TOTALS",
+      "path": "/:userId/totals",
+      "file": "routes\\cartRoutes.js",
+      "line": 56
+    },
+    {
+      "method": "/:USERID/ITEM/:CARTITEMID",
+      "path": "/:userId/item/:cartItemId",
+      "file": "routes\\cartRoutes.js",
+      "line": 35
+    },
+    {
+      "method": "/:USERID/ITEM/:CARTITEMID",
+      "path": "/:userId/item/:cartItemId",
+      "file": "routes\\cartRoutes.js",
+      "line": 36
+    },
+    {
+      "method": "/:USERID/CLEAR",
+      "path": "/:userId/clear",
+      "file": "routes\\cartRoutes.js",
+      "line": 37
+    },
+    {
+      "method": "/:USERID/COUPON",
+      "path": "/:userId/coupon",
+      "file": "routes\\cartRoutes.js",
+      "line": 46
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\cartRoutes.js",
+      "line": 34
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\cartRoutes.js",
+      "line": 35
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\cartRoutes.js",
+      "line": 36
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\cartRoutes.js",
+      "line": 37
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\cartRoutes.js",
+      "line": 40
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\cartRoutes.js",
+      "line": 41
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\cartRoutes.js",
+      "line": 42
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\cartRoutes.js",
+      "line": 45
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\cartRoutes.js",
+      "line": 46
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\cartRoutes.js",
+      "line": 49
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\cartRoutes.js",
+      "line": 50
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\cartRoutes.js",
+      "line": 51
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\cartRoutes.js",
+      "line": 52
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\cartRoutes.js",
+      "line": 55
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\cartRoutes.js",
+      "line": 56
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\cartRoutes.js",
+      "line": 59
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\cartRoutes.js",
+      "line": 60
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\categoryRoutes.js",
+      "line": 10
+    },
+    {
+      "method": "/:CATEGORYID",
+      "path": "/:categoryId",
+      "file": "routes\\categoryRoutes.js",
+      "line": 36
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\categoryRoutes.js",
+      "line": 10
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\categoryRoutes.js",
+      "line": 36
+    },
+    {
+      "method": "/ADMIN/ALL",
+      "path": "/admin/all",
+      "file": "routes\\contactRoutes.js",
+      "line": 20
+    },
+    {
+      "method": "/ADMIN/STATS",
+      "path": "/admin/stats",
+      "file": "routes\\contactRoutes.js",
+      "line": 21
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\contactRoutes.js",
+      "line": 22
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\contactRoutes.js",
+      "line": 16
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\contactRoutes.js",
+      "line": 23
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\contactRoutes.js",
+      "line": 24
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\contactRoutes.js",
+      "line": 16
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\contactRoutes.js",
+      "line": 20
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\contactRoutes.js",
+      "line": 21
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\contactRoutes.js",
+      "line": 22
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\contactRoutes.js",
+      "line": 23
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\contactRoutes.js",
+      "line": 24
+    },
+    {
+      "method": "/CURRENT",
+      "path": "/current",
+      "file": "routes\\dealRoutes.js",
+      "line": 104
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\dealRoutes.js",
+      "line": 109
+    },
+    {
+      "method": "/SLUG/:SLUG",
+      "path": "/slug/:slug",
+      "file": "routes\\dealRoutes.js",
+      "line": 114
+    },
+    {
+      "method": "/ADMIN/STATS",
+      "path": "/admin/stats",
+      "file": "routes\\dealRoutes.js",
+      "line": 126
+    },
+    {
+      "method": "/ADMIN",
+      "path": "/admin",
+      "file": "routes\\dealRoutes.js",
+      "line": 131
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\dealRoutes.js",
+      "line": 141
+    },
+    {
+      "method": "/ADMIN/:ID/ANALYTICS",
+      "path": "/admin/:id/analytics",
+      "file": "routes\\dealRoutes.js",
+      "line": 161
+    },
+    {
+      "method": "/:ID/CLICK",
+      "path": "/:id/click",
+      "file": "routes\\dealRoutes.js",
+      "line": 119
+    },
+    {
+      "method": "/ADMIN",
+      "path": "/admin",
+      "file": "routes\\dealRoutes.js",
+      "line": 136
+    },
+    {
+      "method": "/ADMIN/UPLOAD-IMAGE",
+      "path": "/admin/upload-image",
+      "file": "routes\\dealRoutes.js",
+      "line": 168
+    },
+    {
+      "method": "/ADMIN/BULK-STATUS-UPDATE",
+      "path": "/admin/bulk-status-update",
+      "file": "routes\\dealRoutes.js",
+      "line": 245
+    },
+    {
+      "method": "/ADMIN/DUPLICATE/:ID",
+      "path": "/admin/duplicate/:id",
+      "file": "routes\\dealRoutes.js",
+      "line": 294
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\dealRoutes.js",
+      "line": 146
+    },
+    {
+      "method": "/ADMIN/:ID/STATUS",
+      "path": "/admin/:id/status",
+      "file": "routes\\dealRoutes.js",
+      "line": 156
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\dealRoutes.js",
+      "line": 151
+    },
+    {
+      "method": "/ADMIN/DELETE-IMAGE/:PUBLICID",
+      "path": "/admin/delete-image/:publicId",
+      "file": "routes\\dealRoutes.js",
+      "line": 213
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\dealRoutes.js",
+      "line": 104
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\dealRoutes.js",
+      "line": 109
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\dealRoutes.js",
+      "line": 114
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\dealRoutes.js",
+      "line": 119
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\dealRoutes.js",
+      "line": 126
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\dealRoutes.js",
+      "line": 131
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\dealRoutes.js",
+      "line": 136
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\dealRoutes.js",
+      "line": 141
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\dealRoutes.js",
+      "line": 146
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\dealRoutes.js",
+      "line": 151
+    },
+    {
+      "method": "PATCH",
+      "path": "patch",
+      "file": "routes\\dealRoutes.js",
+      "line": 156
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\dealRoutes.js",
+      "line": 161
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\dealRoutes.js",
+      "line": 168
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\dealRoutes.js",
+      "line": 213
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\dealRoutes.js",
+      "line": 245
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\dealRoutes.js",
+      "line": 294
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\eventRoutes.js",
+      "line": 20
+    },
+    {
+      "method": "/UPCOMING",
+      "path": "/upcoming",
+      "file": "routes\\eventRoutes.js",
+      "line": 21
+    },
+    {
+      "method": "/SCHEDULE",
+      "path": "/schedule",
+      "file": "routes\\eventRoutes.js",
+      "line": 22
+    },
+    {
+      "method": "/FEATURED",
+      "path": "/featured",
+      "file": "routes\\eventRoutes.js",
+      "line": 23
+    },
+    {
+      "method": "/:ID",
+      "path": "/:id",
+      "file": "routes\\eventRoutes.js",
+      "line": 24
+    },
+    {
+      "method": "/ADMIN/ALL",
+      "path": "/admin/all",
+      "file": "routes\\eventRoutes.js",
+      "line": 27
+    },
+    {
+      "method": "/ADMIN/STATS",
+      "path": "/admin/stats",
+      "file": "routes\\eventRoutes.js",
+      "line": 31
+    },
+    {
+      "method": "/ADMIN/CREATE",
+      "path": "/admin/create",
+      "file": "routes\\eventRoutes.js",
+      "line": 28
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\eventRoutes.js",
+      "line": 29
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\eventRoutes.js",
+      "line": 30
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\eventRoutes.js",
+      "line": 20
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\eventRoutes.js",
+      "line": 21
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\eventRoutes.js",
+      "line": 22
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\eventRoutes.js",
+      "line": 23
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\eventRoutes.js",
+      "line": 24
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\eventRoutes.js",
+      "line": 27
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\eventRoutes.js",
+      "line": 28
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\eventRoutes.js",
+      "line": 29
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\eventRoutes.js",
+      "line": 30
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\eventRoutes.js",
+      "line": 31
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\newsletterRoutes.js",
+      "line": 5
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\newsletterRoutes.js",
+      "line": 5
+    },
+    {
+      "method": "/USER/MYORDERS",
+      "path": "/user/myorders",
+      "file": "routes\\orderRoutes.js",
+      "line": 116
+    },
+    {
+      "method": "/:ID",
+      "path": "/:id",
+      "file": "routes\\orderRoutes.js",
+      "line": 140
+    },
+    {
+      "method": "/ADMIN/ALL",
+      "path": "/admin/all",
+      "file": "routes\\orderRoutes.js",
+      "line": 175
+    },
+    {
+      "method": "/CREATE",
+      "path": "/create",
+      "file": "routes\\orderRoutes.js",
+      "line": 12
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\orderRoutes.js",
+      "line": 12
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\orderRoutes.js",
+      "line": 116
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\orderRoutes.js",
+      "line": 140
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\orderRoutes.js",
+      "line": 175
+    },
+    {
+      "method": "/PAYMENT/:PAYMENTID",
+      "path": "/payment/:paymentId",
+      "file": "routes\\paymentRoutes.js",
+      "line": 20
+    },
+    {
+      "method": "/CREATE-RAZORPAY-ORDER",
+      "path": "/create-razorpay-order",
+      "file": "routes\\paymentRoutes.js",
+      "line": 14
+    },
+    {
+      "method": "/VERIFY-RAZORPAY",
+      "path": "/verify-razorpay",
+      "file": "routes\\paymentRoutes.js",
+      "line": 17
+    },
+    {
+      "method": "/REFUND",
+      "path": "/refund",
+      "file": "routes\\paymentRoutes.js",
+      "line": 23
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\paymentRoutes.js",
+      "line": 14
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\paymentRoutes.js",
+      "line": 17
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\paymentRoutes.js",
+      "line": 20
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\paymentRoutes.js",
+      "line": 23
+    },
+    {
+      "method": "/HEALTH",
+      "path": "/health",
+      "file": "routes\\productRoutes.js",
+      "line": 21
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\productRoutes.js",
+      "line": 26
+    },
+    {
+      "method": "/FEATURED",
+      "path": "/featured",
+      "file": "routes\\productRoutes.js",
+      "line": 29
+    },
+    {
+      "method": "/CATEGORIES",
+      "path": "/categories",
+      "file": "routes\\productRoutes.js",
+      "line": 32
+    },
+    {
+      "method": "/CATEGORY/:CATEGORYID",
+      "path": "/category/:categoryId",
+      "file": "routes\\productRoutes.js",
+      "line": 35
+    },
+    {
+      "method": "/PUBLIC/:ID",
+      "path": "/public/:id",
+      "file": "routes\\productRoutes.js",
+      "line": 38
+    },
+    {
+      "method": "/DETAILS/:ID",
+      "path": "/details/:id",
+      "file": "routes\\productRoutes.js",
+      "line": 39
+    },
+    {
+      "method": "/:ID",
+      "path": "/:id",
+      "file": "routes\\productRoutes.js",
+      "line": 42
+    },
+    {
+      "method": "/ADMIN/ALL",
+      "path": "/admin/all",
+      "file": "routes\\productRoutes.js",
+      "line": 46
+    },
+    {
+      "method": "/ADMIN/STATS",
+      "path": "/admin/stats",
+      "file": "routes\\productRoutes.js",
+      "line": 48
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\productRoutes.js",
+      "line": 49
+    },
+    {
+      "method": "/ADMIN/CREATE",
+      "path": "/admin/create",
+      "file": "routes\\productRoutes.js",
+      "line": 47
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\productRoutes.js",
+      "line": 50
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\productRoutes.js",
+      "line": 51
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 21
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 26
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 29
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 32
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 35
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 38
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 39
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 42
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 46
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\productRoutes.js",
+      "line": 47
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 48
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\productRoutes.js",
+      "line": 49
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\productRoutes.js",
+      "line": 50
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\productRoutes.js",
+      "line": 51
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\sampleRoutes.js",
+      "line": 6
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\sampleRoutes.js",
+      "line": 6
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\slideRoutes.js",
+      "line": 48
+    },
+    {
+      "method": "/:ID",
+      "path": "/:id",
+      "file": "routes\\slideRoutes.js",
+      "line": 72
+    },
+    {
+      "method": "/ADMIN",
+      "path": "/admin",
+      "file": "routes\\slideRoutes.js",
+      "line": 131
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\slideRoutes.js",
+      "line": 180
+    },
+    {
+      "method": "/ADMIN/STATS",
+      "path": "/admin/stats",
+      "file": "routes\\slideRoutes.js",
+      "line": 588
+    },
+    {
+      "method": "/:ID/CLICK",
+      "path": "/:id/click",
+      "file": "routes\\slideRoutes.js",
+      "line": 99
+    },
+    {
+      "method": "/ADMIN",
+      "path": "/admin",
+      "file": "routes\\slideRoutes.js",
+      "line": 206
+    },
+    {
+      "method": "/UPLOAD-IMAGE",
+      "path": "/upload-image",
+      "file": "routes\\slideRoutes.js",
+      "line": 431
+    },
+    {
+      "method": "/ADMIN/REORDER",
+      "path": "/admin/reorder",
+      "file": "routes\\slideRoutes.js",
+      "line": 503
+    },
+    {
+      "method": "/ADMIN/BULK-UPDATE",
+      "path": "/admin/bulk-update",
+      "file": "routes\\slideRoutes.js",
+      "line": 544
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\slideRoutes.js",
+      "line": 300
+    },
+    {
+      "method": "/ADMIN/:ID/TOGGLE-STATUS",
+      "path": "/admin/:id/toggle-status",
+      "file": "routes\\slideRoutes.js",
+      "line": 462
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\slideRoutes.js",
+      "line": 395
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\slideRoutes.js",
+      "line": 48
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\slideRoutes.js",
+      "line": 72
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\slideRoutes.js",
+      "line": 99
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\slideRoutes.js",
+      "line": 131
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\slideRoutes.js",
+      "line": 180
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\slideRoutes.js",
+      "line": 206
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\slideRoutes.js",
+      "line": 300
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\slideRoutes.js",
+      "line": 395
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\slideRoutes.js",
+      "line": 431
+    },
+    {
+      "method": "PATCH",
+      "path": "patch",
+      "file": "routes\\slideRoutes.js",
+      "line": 462
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\slideRoutes.js",
+      "line": 503
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\slideRoutes.js",
+      "line": 544
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\slideRoutes.js",
+      "line": 588
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\slides.js",
+      "line": 75
+    },
+    {
+      "method": "/:ID",
+      "path": "/:id",
+      "file": "routes\\slides.js",
+      "line": 92
+    },
+    {
+      "method": "/API/HEALTH",
+      "path": "/api/health",
+      "file": "routes\\slides.js",
+      "line": 263
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\slides.js",
+      "line": 105
+    },
+    {
+      "method": "/UPLOAD",
+      "path": "/upload",
+      "file": "routes\\slides.js",
+      "line": 197
+    },
+    {
+      "method": "/:ID",
+      "path": "/:id",
+      "file": "routes\\slides.js",
+      "line": 139
+    },
+    {
+      "method": "/REORDER",
+      "path": "/reorder",
+      "file": "routes\\slides.js",
+      "line": 216
+    },
+    {
+      "method": "/:ID",
+      "path": "/:id",
+      "file": "routes\\slides.js",
+      "line": 172
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\slides.js",
+      "line": 75
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\slides.js",
+      "line": 92
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\slides.js",
+      "line": 105
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\slides.js",
+      "line": 139
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\slides.js",
+      "line": 172
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\slides.js",
+      "line": 197
+    },
+    {
+      "method": "PATCH",
+      "path": "patch",
+      "file": "routes\\slides.js",
+      "line": 216
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\slides.js",
+      "line": 263
+    },
+    {
+      "method": "/IMAGES",
+      "path": "/images",
+      "file": "routes\\slides.js",
+      "line": 256
+    },
+    {
+      "method": "/API/SLIDES",
+      "path": "/api/slides",
+      "file": "routes\\slides.js",
+      "line": 259
+    },
+    {
+      "method": "/API/UPLOAD",
+      "path": "/api/upload",
+      "file": "routes\\slides.js",
+      "line": 260
+    },
+    {
+      "method": "*",
+      "path": "*",
+      "file": "routes\\slides.js",
+      "line": 280
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 114
+    },
+    {
+      "method": "/STATS",
+      "path": "/stats",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 189
+    },
+    {
+      "method": "/FEATURED",
+      "path": "/featured",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 232
+    },
+    {
+      "method": "/ADMIN",
+      "path": "/admin",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 260
+    },
+    {
+      "method": "/ADMIN",
+      "path": "/admin",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 375
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 490
+    },
+    {
+      "method": "/ADMIN/:ID",
+      "path": "/admin/:id",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 633
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 114
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 189
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 232
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 260
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 375
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 490
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\testimonialRoutes.js",
+      "line": 633
+    },
+    {
+      "method": "/IMAGE",
+      "path": "/image",
+      "file": "routes\\uploadRoutes.js",
+      "line": 10
+    },
+    {
+      "method": "/FILE",
+      "path": "/file",
+      "file": "routes\\uploadRoutes.js",
+      "line": 13
+    },
+    {
+      "method": "/FILE/:FILENAME",
+      "path": "/file/:filename",
+      "file": "routes\\uploadRoutes.js",
+      "line": 16
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\uploadRoutes.js",
+      "line": 10
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\uploadRoutes.js",
+      "line": 13
+    },
+    {
+      "method": "DELETE",
+      "path": "delete",
+      "file": "routes\\uploadRoutes.js",
+      "line": 16
+    },
+    {
+      "method": "/MY-ORDERS",
+      "path": "/my-orders",
+      "file": "routes\\userRoutes.js",
+      "line": 11
+    },
+    {
+      "method": "/ORDER/:ID",
+      "path": "/order/:id",
+      "file": "routes\\userRoutes.js",
+      "line": 12
+    },
+    {
+      "method": "/PLACE-ORDER",
+      "path": "/place-order",
+      "file": "routes\\userRoutes.js",
+      "line": 9
+    },
+    {
+      "method": "/CANCEL-ORDER/:ID",
+      "path": "/cancel-order/:id",
+      "file": "routes\\userRoutes.js",
+      "line": 10
+    },
+    {
+      "method": "POST",
+      "path": "post",
+      "file": "routes\\userRoutes.js",
+      "line": 9
+    },
+    {
+      "method": "PUT",
+      "path": "put",
+      "file": "routes\\userRoutes.js",
+      "line": 10
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\userRoutes.js",
+      "line": 11
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\userRoutes.js",
+      "line": 12
+    },
+    {
+      "method": "/RECENT",
+      "path": "/recent",
+      "file": "routes\\winnerRoutes.js",
+      "line": 18
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\winnerRoutes.js",
+      "line": 18
+    },
+    {
+      "method": "/",
+      "path": "/",
+      "file": "routes\\wishlistRoutes.js",
+      "line": 5
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "routes\\wishlistRoutes.js",
+      "line": 5
+    },
+    {
+      "method": "/API/HEALTH",
+      "path": "/api/health",
+      "file": "server.js",
+      "line": 40
+    },
+    {
+      "method": "/API",
+      "path": "/api",
+      "file": "server.js",
+      "line": 50
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "server.js",
+      "line": 40
+    },
+    {
+      "method": "GET",
+      "path": "get",
+      "file": "server.js",
+      "line": 50
+    },
+    {
+      "method": "/UPLOADS",
+      "path": "/uploads",
+      "file": "server.js",
+      "line": 37
+    },
+    {
+      "method": "/API/AUTH",
+      "path": "/api/auth",
+      "file": "server.js",
+      "line": 77
+    },
+    {
+      "method": "/API/PAYMENT",
+      "path": "/api/payment",
+      "file": "server.js",
+      "line": 82
+    },
+    {
+      "method": "/API/PRODUCTS",
+      "path": "/api/products",
+      "file": "server.js",
+      "line": 87
+    },
+    {
+      "method": "/API/USERS",
+      "path": "/api/users",
+      "file": "server.js",
+      "line": 92
+    },
+    {
+      "method": "/API/ORDERS",
+      "path": "/api/orders",
+      "file": "server.js",
+      "line": 97
+    },
+    {
+      "method": "/API/CATEGORIES",
+      "path": "/api/categories",
+      "file": "server.js",
+      "line": 103
+    },
+    {
+      "method": "/API/UPLOAD",
+      "path": "/api/upload",
+      "file": "server.js",
+      "line": 108
+    },
+    {
+      "method": "/API/SLIDES",
+      "path": "/api/slides",
+      "file": "server.js",
+      "line": 114
+    },
+    {
+      "method": "/API/BLOGS",
+      "path": "/api/blogs",
+      "file": "server.js",
+      "line": 120
+    },
+    {
+      "method": "/API/EVENTS",
+      "path": "/api/events",
+      "file": "server.js",
+      "line": 126
+    },
+    {
+      "method": "/API/CONTACT",
+      "path": "/api/contact",
+      "file": "server.js",
+      "line": 132
+    },
+    {
+      "method": "/API/ADMIN",
+      "path": "/api/admin",
+      "file": "server.js",
+      "line": 138
+    },
+    {
+      "method": "/API/DEALS",
+      "path": "/api/deals",
+      "file": "server.js",
+      "line": 144
+    },
+    {
+      "method": "/API/CART",
+      "path": "/api/cart",
+      "file": "server.js",
+      "line": 152
+    },
+    {
+      "method": "/API/ABOUT",
+      "path": "/api/about",
+      "file": "server.js",
+      "line": 159
+    },
+    {
+      "method": "/API/WINNERS",
+      "path": "/api/winners",
+      "file": "server.js",
+      "line": 168
+    },
+    {
+      "method": "/API/TESTIMONIALS",
+      "path": "/api/testimonials",
+      "file": "server.js",
+      "line": 178
+    }
+  ]
+}
