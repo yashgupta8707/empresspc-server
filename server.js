@@ -64,6 +64,7 @@ app.get("/api", (req, res) => {
       contact: "/api/contact",
       slides: "/api/slides",
       admin: "/api/admin",
+      googleReviews: "/api/google-reviews",
     },
   });
 });
@@ -156,6 +157,11 @@ try {
   // Use cart routes
   app.use("/api/cart", cartRoutes.default);
   console.log("✅ Cart routes loaded");
+
+  console.log("Loading Google review routes...");
+  const googleReviewRoutes = await import("./routes/googleReviewRoutes.js");
+  app.use("/api/google-reviews", googleReviewRoutes.default);
+  console.log("✅ Google review routes loaded");
 
   // Optional routes with error handling
   try {
