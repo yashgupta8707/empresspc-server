@@ -1,0 +1,56 @@
+# Render.com Configuration for Empress Tech Backend
+services:
+  - type: web
+    name: empress-tech-backend
+    runtime: node
+    region: singapore  # Choose closest to your users: oregon, frankfurt, singapore
+    plan: free  # Change to 'starter' for production ($7/month)
+    branch: main
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: MONGO_URI
+        sync: false  # Set this in Render Dashboard
+      - key: JWT_SECRET
+        generateValue: true  # Auto-generate secure secret
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+        sync: false
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: RAZORPAY_KEY_ID
+        sync: false
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: CORS_ORIGIN
+        value: https://empress-tech.vercel.app  # Update with your Vercel URL
+      - key: FRONTEND_URL
+        value: https://empress-tech.vercel.app  # Update with your Vercel URL
+      - key: EMAIL_HOST
+        value: smtp.gmail.com
+      - key: EMAIL_PORT
+        value: 587
+      - key: EMAIL_SECURE
+        value: false
+      - key: EMAIL_FROM
+        value: Empress Tech <noreply@empresstech.com>
+      - key: ENABLE_NEWSLETTER
+        value: true
+      - key: ENABLE_BLOG
+        value: true
+      - key: ENABLE_EVENTS
+        value: true
+      - key: TAX_RATE
+        value: 0.18
+    healthCheckPath: /api/health
+    autoDeploy: true
