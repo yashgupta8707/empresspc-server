@@ -287,26 +287,30 @@ router.get("/admin", protect, admin, async (req, res) => {
       query.category = category;
     }
 
-    const options = {
-      page: parseInt(page),
-      limit: parseInt(limit),
-      sort: { order: 1 },
-      populate: [
-        { path: "createdBy", select: "name email" },
-        { path: "updatedBy", select: "name email" },
-      ],
-    };
+    const pageNum = parseInt(page);
+    const limitNum = parseInt(limit);
+    const skip = (pageNum - 1) * limitNum;
 
-    const slides = await Slide.paginate(query, options);
+    // Get total count for pagination
+    const totalSlides = await Slide.countDocuments(query);
+    const totalPages = Math.ceil(totalSlides / limitNum);
+
+    // Get slides with pagination
+    const slides = await Slide.find(query)
+      .sort({ order: 1 })
+      .skip(skip)
+      .limit(limitNum)
+      .populate("createdBy", "name email")
+      .populate("updatedBy", "name email");
 
     res.json({
       success: true,
-      slides: slides.docs,
-      totalSlides: slides.totalDocs,
-      currentPage: slides.page,
-      totalPages: slides.totalPages,
-      hasNext: slides.hasNextPage,
-      hasPrev: slides.hasPrevPage,
+      slides,
+      totalSlides,
+      currentPage: pageNum,
+      totalPages,
+      hasNext: pageNum < totalPages,
+      hasPrev: pageNum > 1,
     });
   } catch (error) {
     console.error("Error fetching slides for admin:", error);

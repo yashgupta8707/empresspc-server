@@ -5,6 +5,7 @@ import cors from "cors";
 import connectDB from "./config/db.js";
 import { fileURLToPath } from "url";
 import path from "path";
+import { notFoundHandler, errorHandler } from "./middleware/errorMiddleware.js";
 
 // Load environment variables
 dotenv.config();
@@ -28,6 +29,7 @@ const corsOptions = {
       "http://localhost:5174",
       "http://localhost:3000",
       "http://192.168.1.56:5174",
+      "http://192.168.0.8:5174",
       process.env.FRONTEND_URL,  // Your Vercel URL
       process.env.CORS_ORIGIN,   // Backup CORS origin
       /\.vercel\.app$/,           // Any Vercel preview deployment
@@ -94,6 +96,7 @@ app.get("/api", (req, res) => {
       slides: "/api/slides",
       admin: "/api/admin",
       googleReviews: "/api/google-reviews",
+      instagramProducts: "/api/instagram-products",
     },
   });
 });
@@ -126,6 +129,11 @@ try {
   const orderRoutes = await import("./routes/orderRoutes.js");
   app.use("/api/orders", orderRoutes.default);
   console.log("✅ Order routes loaded");
+
+  console.log("Loading quotation routes...");
+  const quotationRoutes = await import("./routes/quotationRoutes.js");
+  app.use("/api/quotations", quotationRoutes.default);
+  console.log("✅ Quotation routes loaded");
 
   // Essential routes
   console.log("Loading category routes...");
@@ -192,6 +200,12 @@ try {
   app.use("/api/google-reviews", googleReviewRoutes.default);
   console.log("✅ Google review routes loaded");
 
+  // Instagram Products routes
+  console.log("Loading Instagram product routes...");
+  const instagramProductRoutes = await import("./routes/instagramProductRoutes.js");
+  app.use("/api/instagram-products", instagramProductRoutes.default);
+  console.log("✅ Instagram product routes loaded");
+
   // Optional routes with error handling
   try {
     console.log("Loading about routes...");
@@ -227,68 +241,13 @@ try {
   process.exit(1);
 }
 
-console.log("🔧 Setting up safe error handlers...");
+console.log("🔧 Setting up error handlers...");
 
-// File upload error handler (no route patterns)
-app.use((error, req, res, next) => {
-  // Handle multer errors
-  if (error && error.code === "LIMIT_FILE_SIZE") {
-    return res.status(400).json({
-      success: false,
-      message: "File too large. Maximum size is 5MB.",
-    });
-  }
+// 404 Handler - catches requests to undefined API routes
+app.use(notFoundHandler);
 
-  if (error && error.message === "Only image files are allowed!") {
-    return res.status(400).json({
-      success: false,
-      message: "Only image files are allowed!",
-    });
-  }
-
-  next(error);
-});
-
-// Safe 404 handler - NO WILDCARDS
-app.use((req, res, next) => {
-  // Only handle API requests
-  if (req.path.startsWith("/api/")) {
-    res.status(404).json({
-      success: false,
-      message: "API endpoint not found",
-      path: req.path,
-      method: req.method,
-      availableEndpoints: [
-        "/api/health",
-        "/api/auth",
-        "/api/products",
-        "/api/orders",
-        "/api/payment",
-        "/api/blogs",
-        "/api/events",
-        "/api/contact",
-        "/api/slides",
-        "/api/admin",
-      ],
-    });
-  } else {
-    next();
-  }
-});
-
-// Global error handler
-app.use((error, req, res, next) => {
-  console.error("Global Error:", error.message);
-
-  // Don't expose sensitive error details in production
-  const isDevelopment = process.env.NODE_ENV === "development";
-
-  res.status(error.status || 500).json({
-    success: false,
-    message: isDevelopment ? error.message : "Internal server error",
-    ...(isDevelopment && { stack: error.stack }),
-  });
-});
+// Global Error Handler - handles all errors passed through next(error)
+app.use(errorHandler);
 
 console.log("✅ Error handlers set up successfully");
 

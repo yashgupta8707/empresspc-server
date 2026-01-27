@@ -1,24 +1,31 @@
 // ===========================
-// 2. FIXED routes/orderRoutes.js (REMOVE TRANSACTIONS)
+// orderRoutes.js - With Mongoose Transactions for Data Integrity
 // ===========================
 import express from 'express';
+import mongoose from 'mongoose';
 import Order from '../models/Order.js';
 import Product from '../models/Product.js';
 import { protect, admin } from '../middleware/authMiddleware.js';
 
 const router = express.Router();
 
-// Create order (COD and online payments) - NO TRANSACTIONS
+// Create order with Mongoose Transaction for data integrity
+// Prevents "Ghost Inventory" where stock is deducted but order fails to save
 router.post('/create', protect, async (req, res) => {
+  const session = await mongoose.startSession();
+  session.startTransaction();
+
   try {
     console.log('📝 Creating order with request body:', req.body);
     console.log('👤 User info:', { id: req.user._id, name: req.user.name });
-    
+
     const { orderItems, shippingAddress, paymentMethod, totalPrice, isPaid = false } = req.body;
 
     // Validate input data
     if (!orderItems || orderItems.length === 0) {
       console.error('❌ No order items provided');
+      await session.abortTransaction();
+      session.endSession();
       return res.status(400).json({
         success: false,
         message: 'No order items provided'
@@ -27,6 +34,8 @@ router.post('/create', protect, async (req, res) => {
 
     if (!shippingAddress) {
       console.error('❌ No shipping address provided');
+      await session.abortTransaction();
+      session.endSession();
       return res.status(400).json({
         success: false,
         message: 'Shipping address is required'
@@ -35,6 +44,8 @@ router.post('/create', protect, async (req, res) => {
 
     if (!req.user || !req.user._id) {
       console.error('❌ User not authenticated');
+      await session.abortTransaction();
+      session.endSession();
       return res.status(401).json({
         success: false,
         message: 'User not authenticated'
@@ -43,32 +54,30 @@ router.post('/create', protect, async (req, res) => {
 
     console.log('📦 Processing order for user:', req.user._id);
 
-    // Validate and update products (NO TRANSACTIONS - simpler approach)
+    // Phase 1: Validate all products and collect updates (within transaction)
+    const productUpdates = [];
     for (const item of orderItems) {
       console.log('🔍 Processing item:', item);
-      
+
       if (!item.product) {
         throw new Error('Product ID is required for all items');
       }
 
-      const product = await Product.findById(item.product);
+      const product = await Product.findById(item.product).session(session);
       if (!product) {
         throw new Error(`Product not found: ${item.product}`);
       }
-      
+
       console.log(`📊 Product ${product.name}: Available=${product.quantity}, Requested=${item.quantity}`);
-      
+
       if (product.quantity < item.quantity) {
         throw new Error(`Insufficient stock for ${product.name}. Available: ${product.quantity}, Requested: ${item.quantity}`);
       }
-      
-      // Update product quantity
-      product.quantity -= item.quantity;
-      await product.save();
-      console.log(`✅ Updated ${product.name} stock to ${product.quantity}`);
+
+      productUpdates.push({ product, quantity: item.quantity });
     }
 
-    // Create order
+    // Phase 2: Create the order (within transaction)
     const orderData = {
       user: req.user._id,
       orderItems,
@@ -92,8 +101,17 @@ router.post('/create', protect, async (req, res) => {
     });
 
     const order = new Order(orderData);
-    const savedOrder = await order.save();
-    
+    const savedOrder = await order.save({ session });
+
+    // Phase 3: Update all product quantities (within transaction)
+    for (const { product, quantity } of productUpdates) {
+      product.quantity -= quantity;
+      await product.save({ session });
+      console.log(`✅ Updated ${product.name} stock to ${product.quantity}`);
+    }
+
+    // Commit the transaction - all changes are atomic
+    await session.commitTransaction();
     console.log('✅ Order created successfully:', savedOrder._id);
 
     res.status(201).json({
@@ -103,12 +121,16 @@ router.post('/create', protect, async (req, res) => {
     });
 
   } catch (error) {
-    console.error('❌ Order creation error:', error.message);
+    // Abort transaction - rolls back all changes
+    await session.abortTransaction();
+    console.error('❌ Order creation error (transaction rolled back):', error.message);
     console.error('Error stack:', error.stack);
     res.status(500).json({
       success: false,
       message: error.message || 'Failed to create order'
     });
+  } finally {
+    session.endSession();
   }
 });
 

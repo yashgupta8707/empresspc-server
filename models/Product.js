@@ -312,13 +312,72 @@ const productSchema = mongoose.Schema({
     min: 0
   },
   
-  // PC Builder specifications (for future use)
+  // PC Builder specifications with expanded hardware compatibility
   pcBuilderSpecs: {
-    platform: {
-      type: String,
-      enum: ['intel', 'amd', 'universal'],
-      lowercase: true
+    platform: { type: String, enum: ['intel', 'amd', 'universal'] },
+
+    processorSpecs: {
+      socket: String,           // e.g., 'LGA1700', 'AM5'
+      tdp: Number,              // Watts
+      cores: Number,
+      threads: Number,
+      generation: String,
+      hasIntegratedGraphics: Boolean
     },
+
+    motherboardSpecs: {
+      socket: String,
+      chipset: String,
+      formFactor: String,       // 'ATX', 'mATX', 'ITX'
+      supportedMemoryTypes: [String],
+      maxMemory: Number,
+      memorySlots: Number,
+      m2Slots: Number,
+      pciSlots: [{ type: String, version: String }]
+    },
+
+    memorySpecs: {
+      type: String,             // 'DDR5', 'DDR4'
+      speed: Number,            // MHz
+      capacity: Number,         // GB
+      modules: Number,          // e.g., 2 for a dual kit
+      latency: String
+    },
+
+    graphicsSpecs: {
+      tdp: Number,
+      vram: Number,
+      vramType: String,
+      length: Number,           // mm
+      slots: Number,            // e.g., 2.5
+      powerConnectors: [{ type: String, count: Number }],
+      minimumPSU: Number
+    },
+
+    psuSpecs: {
+      wattage: Number,
+      efficiency: String,       // '80+ Gold'
+      modular: String,          // 'Full', 'Semi'
+      formFactor: String,
+      connectors: { cpu8pin: Number, pcie8pin: Number, pcie16pin: Number, sata: Number }
+    },
+
+    caseSpecs: {
+      formFactor: [String],
+      maxGPULength: Number,
+      maxCPUCoolerHeight: Number,
+      driveBays: { '3.5': Number, '2.5': Number }
+    },
+
+    coolerSpecs: {
+      type: String,             // 'AIO', 'Tower'
+      tdpRating: Number,
+      sockets: [String],
+      height: Number,           // mm
+      radiatorSize: Number      // mm
+    },
+
+    // Legacy compatibility fields
     compatibility: {
       processorSocket: String,
       memoryType: String,
